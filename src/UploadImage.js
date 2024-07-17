@@ -52,7 +52,7 @@ const Detection = ({ token }) => {
         throw new Error('Token not found in localStorage');
       }
 
-      const response = await axios.post('https://main-api2-2ca5j5e3vq-et.a.run.app/api/upload-image', formData, {
+      const response = await axios.post('https://main-api-2ca5j5e3vq-et.a.run.app/api/upload-image', formData, {
         headers: {
           'Authorization': `Bearer ${authToken}`,
           'Content-Type': 'multipart/form-data'

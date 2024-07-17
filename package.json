@@ -45,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://main-api2-2ca5j5e3vq-et.a.run.app",
+  "proxy": "https://main-api-2ca5j5e3vq-et.a.run.app",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
